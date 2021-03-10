@@ -1,0 +1,31 @@
+.result tr:hover:not(.head) td {
+    background: #ddd;
+    cursor: pointer;
+}
+
+.result2 td:first-child,
+.result3 td:first-child,
+.result3 td:last-child,
+.result4 td:first-child,
+.result4 td:last-child,
+.result5 td:last-child,
+.result6 td:last-child {
+    width: 15%;
+    text-align: center;
+}
+
+.sub_head {
+    font-weight: bold;
+    background: #EEFDF0;
+}
+
+.result5 td:first-child:not(.head),
+.result6 td:first-child:not(.head) {
+    text-indent: 1rem;
+}
+
+.txt_box {
+    height: 500px;
+    overflow-y: auto;
+    padding: 1.5rem 10px;
+}

@@ -1,0 +1,328 @@
+.left_menu>ul>li>a {
+    display: block;
+    padding: 10px;
+}
+
+.active_top,
+.left_menu>ul>li>a:hover {
+    background: rgba(176, 215, 250, 0.3);
+}
+
+.left_menu .active::before {
+    content: "- ";
+}
+
+.active:last-child::before {
+    content: unset;
+}
+
+section .container {
+    display: flex;
+}
+
+.left_menu {
+    width: 18%;
+    align-self: stretch;
+    margin-right: 2rem;
+}
+
+.left_menu ul {
+    font-size: 1.1rem;
+    font-weight: 700;
+    padding: 6px;
+}
+
+.left_menu>ul {
+    height: 93%;
+    border: 1px solid #A0B1C0;
+    background: #fff;
+    margin: 1rem 0;
+    padding: 1rem;
+}
+
+.left_menu .active {
+    color: #1E47A3;
+}
+
+.years li {
+    list-style: square inside;
+    color: #444;
+}
+
+.left_menu>ul ul ul ul li:hover {
+    background: rgba(176, 215, 250, 0.3);
+}
+
+.main_content {
+    width: 82%;
+    float: left;
+}
+
+article::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.table1 tr td {
+    font-size: .9rem;
+    width: 10%;
+}
+
+.table1 tr:nth-child(odd) td {
+    font-size: .7rem;
+    text-align: center;
+    font-weight: 800;
+    color: #444;
+}
+
+.table1 tr:nth-child(even) td:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.table1 tr:nth-child(even) td {
+    transition: .6s ease;
+}
+
+td a:hover {
+    font-weight: 600;
+}
+
+.txt_box span {
+    color: #1E47A3;
+}
+
+.txt_box span:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.bg-green {
+    background: rgba(160, 255, 141, .3);
+}
+
+.bg-red {
+    background: rgba(226, 72, 72, .3);
+}
+
+.bg-beige {
+    background: rgba(250, 210, 167, .3);
+}
+
+.bg-yellow {
+    background: rgba(252, 255, 141, .3);
+}
+
+.bg-blue {
+    background: rgba(141, 212, 255, .3);
+}
+
+.bg-gray {
+    background: rgba(196, 196, 196, .3);
+}
+
+.bg-orange {
+    background: rgba(249, 144, 71, .3);
+}
+
+.table2 .text_cont:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.table2 span,
+.table3 span {
+    color: tomato;
+    font-size: .8rem;
+    font-weight: 300;
+}
+
+.table3 td:last-child {
+    text-align: center;
+}
+
+.jul,
+.fourth {
+    position: relative;
+}
+
+.fourth {
+    height: 110px;
+}
+
+.jul::after,
+.fourth::after {
+    content: "절";
+    text-align: center;
+    font-size: .9rem;
+    display: table;
+    width: 30px;
+    height: 20px;
+    background: #666;
+    color: #fff;
+    position: absolute;
+    right: -1px;
+    bottom: 0;
+    border-top-left-radius: 10px;
+}
+
+.fourth::after {
+    content: "4단위호속견표";
+    background: tomato;
+    width: 90%;
+    font-size: .8rem;
+}
+
+.jul a,
+.fourth a {
+    display: block;
+    width: 30px;
+    height: 20px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+.fourth a {
+    width: 90%;
+}
+
+ol>li {
+    list-style-type: decimal;
+    list-style-position: inside;
+    padding-left: 1em;
+    text-indent: -1em;
+    padding-top: 10px;
+}
+
+ol ul {
+    padding-left: 1rem;
+}
+
+.result1 ul>li {
+    padding-left: 2em;
+    text-indent: -3em;
+    padding-bottom: 1rem;
+}
+
+.table4 td {
+    vertical-align: top;
+}
+
+.table4 h3,
+.table4 h4 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.table4 p {
+    margin: 10px 0;
+}
+
+.main_content .search {
+    width: 80%;
+}
+
+.main_content .search_text {
+    width: 94%;
+}
+
+.world_wrap {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+.world_wrap table {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.label {
+    color: #fff;
+    padding: 1rem 1rem 0;
+    font-size: 1.3rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.label select {
+    padding: 2px;
+    vertical-align: top;
+    margin-bottom: 1rem;
+}
+
+.col-3 {
+    width: 33.3333%;
+    float: left;
+    margin-right: 1rem;
+    border-radius: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.country1 {
+    background: #8194A8;
+}
+
+.country2 {
+    background: #61778D;
+}
+
+.country3 {
+    background: #4E6071;
+}
+
+.col-3::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.col-3:last-child {
+    margin-right: 0;
+}
+
+.world .search {
+    margin: 3rem 0 1rem 5rem;
+    background: #0F7EBD;
+    border: 5px solid #0F7EBD;
+}
+
+#fourth .table1 {
+    background: none;
+}
+
+#fourth .table1 tr:nth-child(even) {
+    background: #fff;
+}
+
+.ho_table {
+    width: 100%;
+}
+
+.country {
+    text-indent: 1rem;
+}
+
+.country>li>a {
+    text-indent: 1rem;
+    color: #1E47A3;
+    padding-bottom: -10px;
+}
+
+.country ul li::before {
+    content: "- ";
+}
+
+.country ul li:hover {
+    background: rgba(176, 215, 250, 0.3);
+}
+
+.tfooter::after {
+    clear: both;
+    display: block;
+    content: "";
+}
